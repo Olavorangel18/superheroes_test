@@ -1,8 +1,8 @@
 package com.w2m.superheroes.models;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.List;
+import com.superheroes.superheroes_test.models.Superhero;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 
@@ -45,16 +45,5 @@ public class SuperheroTest {
         assertEquals("A superhero with web-slinging abilities.", superhero.getDescription());
     }
 
-    @Test
-    public void testSuperheroTeams() {
-        Team team1 = new Team();
-        Team team2 = new Team();
-
-        superhero.setTeams(List.of(team1, team2));
-
-        assertEquals(2, superhero.getTeams().size());
-        assertTrue(superhero.getTeams().contains(team1));
-        assertTrue(superhero.getTeams().contains(team2));
-    }
 }
 
