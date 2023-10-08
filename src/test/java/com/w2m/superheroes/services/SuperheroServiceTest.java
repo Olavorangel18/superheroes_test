@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.superheroes.superheroes_test.dao.SuperheroRepository;
 import com.superheroes.superheroes_test.models.Superhero;
+import com.superheroes.superheroes_test.repositories.SuperheroRepository;
 import com.superheroes.superheroes_test.services.SuperheroService;
 
 import java.util.List;

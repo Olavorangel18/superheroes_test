@@ -1,4 +1,4 @@
-package com.superheroes.superheroes_test.dao;
+package com.superheroes.superheroes_test.repositories;
 
 import java.util.List;
 

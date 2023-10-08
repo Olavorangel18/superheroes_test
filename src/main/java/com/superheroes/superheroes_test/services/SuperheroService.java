@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.superheroes.superheroes_test.annotations.ExecutionTimeLogger;
-import com.superheroes.superheroes_test.dao.SuperheroRepository;
 import com.superheroes.superheroes_test.exceptions.CustomException;
 import com.superheroes.superheroes_test.models.Superhero;
+import com.superheroes.superheroes_test.repositories.SuperheroRepository;
 
 import java.util.List;
 import java.util.Optional;
