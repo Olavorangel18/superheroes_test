@@ -1,10 +1,13 @@
 package com.w2m.superheroes.services;
-import com.w2m.superheroes.models.Superhero;
-import com.w2m.superheroes.repositories.SuperheroRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+
+import com.superheroes.superheroes_test.dao.SuperheroRepository;
+import com.superheroes.superheroes_test.models.Superhero;
+import com.superheroes.superheroes_test.services.SuperheroService;
+
 import java.util.List;
 import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
@@ -55,7 +58,6 @@ public class SuperheroServiceTest {
         assertNotNull(result);
     }
 
-    // Similarmente, puedes escribir pruebas para los otros métodos del servicio (actualizar y eliminar).
 }
 
 
