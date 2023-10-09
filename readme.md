@@ -38,11 +38,11 @@ cd superheroes_test
 
 1. Construya la imagen de Docker:
 
-docker build -t superheroe  .
+    docker build -t superheroe  .
 
 2. Ejecute el contenedor de Docker:
 
-docker run -p 8080:8080 superheroe
+    docker run -p 8080:8080 superheroe
 
 3. Acceda a la API en `http://localhost:8080`.
 
