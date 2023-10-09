@@ -28,21 +28,21 @@ Para ejecutar la aplicación en su entorno local, siga estos pasos:
 
 1. Clone el repositorio de GitHub:
     
-- https://github.com/Olavorangel18/superheroes_test.git
+    - https://github.com/Olavorangel18/superheroes_test.git
 
 2. Navegue hasta el directorio del proyecto:
 
-- cd superheroes_test
+    - cd superheroes_test
 
 ### Docker
 
 1. Construya la imagen de Docker:
 
-    docker build -t superheroe  .
+    - docker build -t superheroe  .
 
 2. Ejecute el contenedor de Docker:
 
-    docker run -p 8080:8080 superheroe
+    - docker run -p 8080:8080 superheroe
 
 3. Acceda a la API en `http://localhost:8080`.
 
