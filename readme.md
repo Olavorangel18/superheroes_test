@@ -49,8 +49,8 @@ Para ejecutar la aplicación en su entorno local, siga estos pasos:
 ### MVN 
 
 1. mvn spring-boot:run
-
-2. Acceda a la API en `http://localhost:8080`.
+2. mvn clean install
+3. Acceda a la API en `http://localhost:8080`.
 
 ## Uso de la API
 
