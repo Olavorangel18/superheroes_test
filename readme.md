@@ -28,11 +28,11 @@ Para ejecutar la aplicación en su entorno local, siga estos pasos:
 
 1. Clone el repositorio de GitHub:
     
-https://github.com/Olavorangel18/superheroes_test.git
+- https://github.com/Olavorangel18/superheroes_test.git
 
 2. Navegue hasta el directorio del proyecto:
 
-cd superheroes_test
+- cd superheroes_test
 
 ### Docker
 
